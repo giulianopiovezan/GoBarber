@@ -3,14 +3,15 @@
 </h1>
 
 <p align="center">
-  <a href="#page_with_curl-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#books-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#gear-iniciando-backend">Node.js</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#computer-iniciando-frontend">ReactJS</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#iniciando-backend">Node.js</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#iniciando-frontend">ReactJS</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#licença">Licença</a>
 </p>
 
 
-## :page_with_curl: Sobre
+## Sobre
 
 Plataforma de agendamento de serviços para proprietários de barbearias ou salões de beleza. Nessa aplicação o usuário consegue ter acesso a todos os prostadores de serviços cadastrados através de um aplicativo mobile, com isso o usuário consegue escolher um prestador para marcar seu agendamento.
 
@@ -46,3 +47,6 @@ Já o prestador de serviço, através de um interface Web, consegue ter acesso a
 
   $ yarn start
 ```
+
+## Licença
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/giulianopiovezan/nlw-ecoleta/blob/master/LICENSE) para mais detalhes.
