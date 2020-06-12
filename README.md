@@ -21,13 +21,13 @@ Já o prestador de serviço, através de um interface Web, consegue ter acesso a
 **ReactJS**: é uma página Web no qual o prestador de serviço tem acesso a todo o seu calendário de agendamentos.
 
 
-## :books: Requisitos
+## Requisitos
 - [**Git**](https://git-scm.com/)
 - [**Node.js**](https://nodejs.org/en/)
 - [**Docker**](https://www.docker.com/)
 - Um dispositivo ou emulador iOS ou Android
 
-## :gear: Iniciando backend
+## Iniciando backend
 ```bash
   $ cd server
 
@@ -38,7 +38,7 @@ Já o prestador de serviço, através de um interface Web, consegue ter acesso a
   $ yarn dev:server
 ```
 
-## :computer: Iniciando frontend
+## Iniciando frontend
 ```bash
   $ cd frontend
 
