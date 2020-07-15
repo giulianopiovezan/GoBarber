@@ -17,7 +17,7 @@ interface IResponse {
   token: string;
 }
 
-injectable();
+@injectable()
 class AuthenticateUserService {
   constructor(
     @inject('UsersRepository')
@@ -34,8 +34,8 @@ class AuthenticateUserService {
     }
 
     const passwordMatches = await this.hashProvider.compareHash(
-      user.password,
       password,
+      user.password,
     );
 
     if (!passwordMatches) {
