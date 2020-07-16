@@ -7,6 +7,7 @@ import IAppointmentsRepository from '@modules/appointments/repositories/IAppoint
 interface IRequest {
   date: Date;
   provider_id: string;
+  user_id: string;
 }
 
 @injectable()
@@ -16,7 +17,11 @@ class CreateAppointmentService {
     private repository: IAppointmentsRepository,
   ) {}
 
-  public async execute({ provider_id, date }: IRequest): Promise<Appointment> {
+  public async execute({
+    provider_id,
+    date,
+    user_id,
+  }: IRequest): Promise<Appointment> {
     const appointmentDate = startOfHour(date);
 
     const findAppointmentInSameDate = await this.repository.findByDate(
@@ -29,6 +34,7 @@ class CreateAppointmentService {
 
     const appointment = await this.repository.create({
       provider_id,
+      user_id,
       date: appointmentDate,
     });
 
