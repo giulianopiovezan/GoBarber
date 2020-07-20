@@ -4,7 +4,7 @@ import { verify } from 'jsonwebtoken';
 import { jwt } from '@config/auth';
 import AppException from '@shared/exceptions/AppException';
 
-interface TokenPayload {
+interface ITokenPayload {
   iat: number;
   exp: number;
   sub: string;
